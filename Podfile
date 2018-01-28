@@ -8,8 +8,8 @@ target 'Bantu dico' do
   # Pods for Bantu dico
   pod 'Alamofire', '~> 4.5'
   pod 'ObjectMapper', '~> 3.1'
+  pod 'AlamofireObjectMapper', '~> 5.0'
   pod 'CocoaLumberjack/Swift'
-  pod 'Moya', '~> 10.0'
   
   target 'Bantu dicoTests' do
     inherit! :search_paths
@@ -29,7 +29,7 @@ target 'Bantu dico Dev' do
   use_frameworks!
   pod 'Alamofire', '~> 4.5'
   pod 'ObjectMapper', '~> 3.1'
+  pod 'AlamofireObjectMapper', '~> 5.0'
   pod 'CocoaLumberjack/Swift'
-  pod 'Moya', '~> 10.0'
 
 end

@@ -9,9 +9,9 @@
 import Foundation
 
 typealias BantuDicoApiTranslationCompletionHandler = (BantuWord?, Error?) -> Void
-typealias BantuDicoApiLanguagesCompletionHandler = ([String]?, Error?) -> Void
+typealias BantuDicoApiLanguagesCompletionHandler = ([BantuLanguage]?, Error?) -> Void
 
 protocol BantuDicoApiClient: class {
-    func translate(word: String, sourceLanguage: String, destinationLanguage: String, completion: BantuDicoApiTranslationCompletionHandler?) -> Cancellable?
-    func fetchSupportedLanguages(completion: BantuDicoApiLanguagesCompletionHandler?) -> Cancellable?
+    func translate(word: String, sourceLanguage: String, destinationLanguage: String, queue: DispatchQueue?, completion: BantuDicoApiTranslationCompletionHandler?) -> URLSessionTask?
+    func fetchSupportedLanguages(queue: DispatchQueue?, completion: BantuDicoApiLanguagesCompletionHandler?) -> URLSessionTask?
 }
