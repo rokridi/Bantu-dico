@@ -33,9 +33,11 @@
 		1EEE4D58201B6DDA00E31814 /* Cancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE4D56201B6DDA00E31814 /* Cancellable.swift */; };
 		1EEE4D61201B71C600E31814 /* BantuLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE4D60201B71C600E31814 /* BantuLanguage.swift */; };
 		1EEE4D62201B71C600E31814 /* BantuLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE4D60201B71C600E31814 /* BantuLanguage.swift */; };
-		6B7BACE18080EB848185106B /* Pods_Bantu_dicoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9842B927C1BAD8EED0DC53 /* Pods_Bantu_dicoUITests.framework */; };
+		61D713084B0BA0ECA99A71DD /* Pods_Shows_Bantu_dico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44D0C2AC902763E0910EA49 /* Pods_Shows_Bantu_dico.framework */; };
+		73B05208FF27618D5AA0BC74 /* libPods-Bantu dicoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31CB0A57E9892C9FC47C95CB /* libPods-Bantu dicoUITests.a */; };
+		C825ACF34E5B7974AFCF5A82 /* Pods_Shows_Bantu_dico_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CA1A8682A7D3BB3D1075764 /* Pods_Shows_Bantu_dico_Dev.framework */; };
 		D07FA5D06E9D8883530BB02E /* Pods_Bantu_dico_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA35E42B67BB952881FC7F2D /* Pods_Bantu_dico_Dev.framework */; };
-		E75E2AA1358C2ACDFE2942A3 /* Pods_Bantu_dicoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801EA41A9E34A04B218C0505 /* Pods_Bantu_dicoTests.framework */; };
+		E432C0CA5E0372F7CB45C951 /* libPods-Bantu dicoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7274951705C36EEA25386F /* libPods-Bantu dicoTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,17 +79,23 @@
 		1EEE4CBE2018E2A200E31814 /* BantuDicoStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BantuDicoStorage.swift; sourceTree = "<group>"; };
 		1EEE4D56201B6DDA00E31814 /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
 		1EEE4D60201B71C600E31814 /* BantuLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BantuLanguage.swift; sourceTree = "<group>"; };
+		31CB0A57E9892C9FC47C95CB /* libPods-Bantu dicoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bantu dicoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3432D419053015A02B0DD34C /* Pods-Bantu dicoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bantu dicoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bantu dicoTests/Pods-Bantu dicoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41025F6100A73DDCE59FDE3F /* Pods-Shows-Bantu dico Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shows-Bantu dico Dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shows-Bantu dico Dev/Pods-Shows-Bantu dico Dev.release.xcconfig"; sourceTree = "<group>"; };
 		63EF57BEAE12CFDEEDCA4CCD /* Pods-Bantu dicoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bantu dicoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bantu dicoTests/Pods-Bantu dicoTests.release.xcconfig"; sourceTree = "<group>"; };
-		801EA41A9E34A04B218C0505 /* Pods_Bantu_dicoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bantu_dicoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB0DF5365D10186863FC68E /* Pods-Shows-Bantu dico Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shows-Bantu dico Dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shows-Bantu dico Dev/Pods-Shows-Bantu dico Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		7CA1A8682A7D3BB3D1075764 /* Pods_Shows_Bantu_dico_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shows_Bantu_dico_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85FF9C84865EAF75142E4003 /* Pods-Bantu dicoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bantu dicoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bantu dicoUITests/Pods-Bantu dicoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8E3782EA06142AEB555BEA84 /* Pods-Bantu dico Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bantu dico Dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bantu dico Dev/Pods-Bantu dico Dev.release.xcconfig"; sourceTree = "<group>"; };
 		8F2237051256C2FC200F3875 /* Pods_Bantu_dico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bantu_dico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DC151765ACEDE719B60F30C /* Pods-Bantu dicoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bantu dicoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bantu dicoUITests/Pods-Bantu dicoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5298C15E01EEEBF48B038E7 /* Pods-Shows-Bantu dico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shows-Bantu dico.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shows-Bantu dico/Pods-Shows-Bantu dico.debug.xcconfig"; sourceTree = "<group>"; };
 		AA35E42B67BB952881FC7F2D /* Pods_Bantu_dico_Dev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bantu_dico_Dev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB9842B927C1BAD8EED0DC53 /* Pods_Bantu_dicoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bantu_dicoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E4AC91F6B5DEB4B6DA7F1C /* Pods-Bantu dico Dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bantu dico Dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bantu dico Dev/Pods-Bantu dico Dev.debug.xcconfig"; sourceTree = "<group>"; };
+		B3CED262F59F633BD4A900ED /* Pods-Shows-Bantu dico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shows-Bantu dico.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shows-Bantu dico/Pods-Shows-Bantu dico.release.xcconfig"; sourceTree = "<group>"; };
 		C543F3F1CE0FE9776E5B5803 /* Pods-Bantu dico.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bantu dico.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bantu dico/Pods-Bantu dico.debug.xcconfig"; sourceTree = "<group>"; };
+		CD7274951705C36EEA25386F /* libPods-Bantu dicoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Bantu dicoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44D0C2AC902763E0910EA49 /* Pods_Shows_Bantu_dico.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shows_Bantu_dico.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B77E0AFA5D67D204037BB6 /* Pods-Bantu dico.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bantu dico.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bantu dico/Pods-Bantu dico.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +105,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E51E431B97CCB1596E79513 /* Pods_Bantu_dico.framework in Frameworks */,
+				61D713084B0BA0ECA99A71DD /* Pods_Shows_Bantu_dico.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E75E2AA1358C2ACDFE2942A3 /* Pods_Bantu_dicoTests.framework in Frameworks */,
+				E432C0CA5E0372F7CB45C951 /* libPods-Bantu dicoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B7BACE18080EB848185106B /* Pods_Bantu_dicoUITests.framework in Frameworks */,
+				73B05208FF27618D5AA0BC74 /* libPods-Bantu dicoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +131,7 @@
 			files = (
 				1EEE4C992018991D00E31814 /* Pods_Bantu_dico.framework in Frameworks */,
 				D07FA5D06E9D8883530BB02E /* Pods_Bantu_dico_Dev.framework in Frameworks */,
+				C825ACF34E5B7974AFCF5A82 /* Pods_Shows_Bantu_dico_Dev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,9 +211,11 @@
 			isa = PBXGroup;
 			children = (
 				8F2237051256C2FC200F3875 /* Pods_Bantu_dico.framework */,
-				801EA41A9E34A04B218C0505 /* Pods_Bantu_dicoTests.framework */,
-				AB9842B927C1BAD8EED0DC53 /* Pods_Bantu_dicoUITests.framework */,
 				AA35E42B67BB952881FC7F2D /* Pods_Bantu_dico_Dev.framework */,
+				CD7274951705C36EEA25386F /* libPods-Bantu dicoTests.a */,
+				31CB0A57E9892C9FC47C95CB /* libPods-Bantu dicoUITests.a */,
+				D44D0C2AC902763E0910EA49 /* Pods_Shows_Bantu_dico.framework */,
+				7CA1A8682A7D3BB3D1075764 /* Pods_Shows_Bantu_dico_Dev.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,6 +231,10 @@
 				85FF9C84865EAF75142E4003 /* Pods-Bantu dicoUITests.release.xcconfig */,
 				B2E4AC91F6B5DEB4B6DA7F1C /* Pods-Bantu dico Dev.debug.xcconfig */,
 				8E3782EA06142AEB555BEA84 /* Pods-Bantu dico Dev.release.xcconfig */,
+				A5298C15E01EEEBF48B038E7 /* Pods-Shows-Bantu dico.debug.xcconfig */,
+				B3CED262F59F633BD4A900ED /* Pods-Shows-Bantu dico.release.xcconfig */,
+				7BB0DF5365D10186863FC68E /* Pods-Shows-Bantu dico Dev.debug.xcconfig */,
+				41025F6100A73DDCE59FDE3F /* Pods-Shows-Bantu dico Dev.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -426,7 +442,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bantu dico/Pods-Bantu dico-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shows-Bantu dico/Pods-Shows-Bantu dico-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1EEE4C932018991D00E31814 /* [CP] Check Pods Manifest.lock */ = {
@@ -440,7 +456,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Bantu dico Dev-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Shows-Bantu dico Dev-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -453,9 +469,10 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Bantu dico Dev/Pods-Bantu dico Dev-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shows-Bantu dico Dev/Pods-Shows-Bantu dico Dev-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BantuDicoAlamofireApiClient/BantuDicoAlamofireApiClient.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 			);
@@ -463,12 +480,13 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BantuDicoAlamofireApiClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bantu dico Dev/Pods-Bantu dico Dev-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shows-Bantu dico Dev/Pods-Shows-Bantu dico Dev-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1EEE4C9F2018991D00E31814 /* [CP] Copy Pods Resources */ = {
@@ -483,7 +501,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bantu dico Dev/Pods-Bantu dico Dev-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shows-Bantu dico Dev/Pods-Shows-Bantu dico Dev-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		424ACA7B6BDF9BF39D92DF28 /* [CP] Check Pods Manifest.lock */ = {
@@ -525,9 +543,10 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Bantu dico/Pods-Bantu dico-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shows-Bantu dico/Pods-Shows-Bantu dico-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/BantuDicoAlamofireApiClient/BantuDicoAlamofireApiClient.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 			);
@@ -535,12 +554,13 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BantuDicoAlamofireApiClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bantu dico/Pods-Bantu dico-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shows-Bantu dico/Pods-Shows-Bantu dico-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		911CCC6CEEA1EEF25804E810 /* [CP] Check Pods Manifest.lock */ = {
@@ -554,7 +574,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Bantu dico-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Shows-Bantu dico-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -799,11 +819,12 @@
 		};
 		1EEE4C8A2018921E00E31814 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C543F3F1CE0FE9776E5B5803 /* Pods-Bantu dico.debug.xcconfig */;
+			baseConfigurationReference = A5298C15E01EEEBF48B038E7 /* Pods-Shows-Bantu dico.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Bantu dico/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rokridi.Bantu-dico";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -814,11 +835,12 @@
 		};
 		1EEE4C8B2018921E00E31814 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7B77E0AFA5D67D204037BB6 /* Pods-Bantu dico.release.xcconfig */;
+			baseConfigurationReference = B3CED262F59F633BD4A900ED /* Pods-Shows-Bantu dico.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Bantu dico/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rokridi.Bantu-dico";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -895,11 +917,12 @@
 		};
 		1EEE4CA12018991D00E31814 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2E4AC91F6B5DEB4B6DA7F1C /* Pods-Bantu dico Dev.debug.xcconfig */;
+			baseConfigurationReference = 7BB0DF5365D10186863FC68E /* Pods-Shows-Bantu dico Dev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Bantu dico Dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rokridi.Bantu-dico";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -910,11 +933,12 @@
 		};
 		1EEE4CA22018991D00E31814 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E3782EA06142AEB555BEA84 /* Pods-Bantu dico Dev.release.xcconfig */;
+			baseConfigurationReference = 41025F6100A73DDCE59FDE3F /* Pods-Shows-Bantu dico Dev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Bantu dico Dev-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rokridi.Bantu-dico";
 				PRODUCT_NAME = "$(TARGET_NAME)";
