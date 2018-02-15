@@ -51,6 +51,8 @@
 		1EEE4D5E201B715B00E31814 /* ApiBantuLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE4D5C201B715B00E31814 /* ApiBantuLanguage.swift */; };
 		1EEE4D61201B71C600E31814 /* BantuLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE4D60201B71C600E31814 /* BantuLanguage.swift */; };
 		1EEE4D62201B71C600E31814 /* BantuLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE4D60201B71C600E31814 /* BantuLanguage.swift */; };
+		1EEE4D65201F0D3E00E31814 /* BantuDicoAlamofireApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE4D64201F0D3E00E31814 /* BantuDicoAlamofireApiEndpoint.swift */; };
+		1EEE4D66201F0D3E00E31814 /* BantuDicoAlamofireApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEE4D64201F0D3E00E31814 /* BantuDicoAlamofireApiEndpoint.swift */; };
 		6B7BACE18080EB848185106B /* Pods_Bantu_dicoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB9842B927C1BAD8EED0DC53 /* Pods_Bantu_dicoUITests.framework */; };
 		D07FA5D06E9D8883530BB02E /* Pods_Bantu_dico_Dev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA35E42B67BB952881FC7F2D /* Pods_Bantu_dico_Dev.framework */; };
 		E75E2AA1358C2ACDFE2942A3 /* Pods_Bantu_dicoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 801EA41A9E34A04B218C0505 /* Pods_Bantu_dicoTests.framework */; };
@@ -106,6 +108,7 @@
 		1EEE4D56201B6DDA00E31814 /* Cancellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancellable.swift; sourceTree = "<group>"; };
 		1EEE4D5C201B715B00E31814 /* ApiBantuLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiBantuLanguage.swift; sourceTree = "<group>"; };
 		1EEE4D60201B71C600E31814 /* BantuLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BantuLanguage.swift; sourceTree = "<group>"; };
+		1EEE4D64201F0D3E00E31814 /* BantuDicoAlamofireApiEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BantuDicoAlamofireApiEndpoint.swift; sourceTree = "<group>"; };
 		3432D419053015A02B0DD34C /* Pods-Bantu dicoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bantu dicoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bantu dicoTests/Pods-Bantu dicoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		63EF57BEAE12CFDEEDCA4CCD /* Pods-Bantu dicoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bantu dicoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bantu dicoTests/Pods-Bantu dicoTests.release.xcconfig"; sourceTree = "<group>"; };
 		801EA41A9E34A04B218C0505 /* Pods_Bantu_dicoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bantu_dicoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -238,7 +241,7 @@
 		1EEE4CC12018E72500E31814 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				F4D400A5201E58B800D25D87 /* BantuDicoAlamofireApiClient.swift */,
+				1EEE4D63201F0CD900E31814 /* BantuDicoAlamofireApiClient */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -331,6 +334,15 @@
 				1EEE4D382019F7C000E31814 /* CDBantuWord+CoreDataProperties.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		1EEE4D63201F0CD900E31814 /* BantuDicoAlamofireApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				1EEE4D64201F0D3E00E31814 /* BantuDicoAlamofireApiEndpoint.swift */,
+				F4D400A5201E58B800D25D87 /* BantuDicoAlamofireApiClient.swift */,
+			);
+			path = BantuDicoAlamofireApiClient;
 			sourceTree = "<group>";
 		};
 		64F32198C834BCCE103AC73C /* Frameworks */ = {
@@ -754,6 +766,7 @@
 				1EEE4C672018921E00E31814 /* SecondViewController.swift in Sources */,
 				1EEE4D392019F7C000E31814 /* CDBantuWord+CoreDataClass.swift in Sources */,
 				1EEE4CBF2018E2A200E31814 /* BantuDicoStorage.swift in Sources */,
+				1EEE4D65201F0D3E00E31814 /* BantuDicoAlamofireApiEndpoint.swift in Sources */,
 				1EEE4CB42018C4B200E31814 /* BantuDicoApiClient.swift in Sources */,
 				1EEE4D442019FB2100E31814 /* BantuDicoCoreDataService.swift in Sources */,
 				1EEE4D5D201B715B00E31814 /* ApiBantuLanguage.swift in Sources */,
@@ -795,6 +808,7 @@
 				1EEE4C952018991D00E31814 /* SecondViewController.swift in Sources */,
 				1EEE4D3A2019F7C000E31814 /* CDBantuWord+CoreDataClass.swift in Sources */,
 				1EEE4CC02018E2A200E31814 /* BantuDicoStorage.swift in Sources */,
+				1EEE4D66201F0D3E00E31814 /* BantuDicoAlamofireApiEndpoint.swift in Sources */,
 				1EEE4CB52018C4B200E31814 /* BantuDicoApiClient.swift in Sources */,
 				1EEE4D452019FB2100E31814 /* BantuDicoCoreDataService.swift in Sources */,
 				1EEE4D5E201B715B00E31814 /* ApiBantuLanguage.swift in Sources */,

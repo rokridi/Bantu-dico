@@ -10,46 +10,6 @@ import Foundation
 import Alamofire
 import AlamofireObjectMapper
 
-enum Endpoint: URLRequestConvertible {
-    
-    case translate(String, String, String, BantuDicoApiEnvironment)
-    case supportedLanguages(BantuDicoApiEnvironment)
-    
-    private var baseURL: String {
-        switch self {
-        case .translate(_, _, _, let environment), .supportedLanguages(let environment):
-            return environment.baseURL
-        }
-    }
-    
-    private var path: String {
-        switch self {
-        case .translate(_ ,_ ,_, _):
-            return ""
-        case .supportedLanguages(_):
-            return ""
-        }
-    }
-    
-    private var method: Alamofire.HTTPMethod {
-        return .post
-    }
-    
-    private var parameters: [String: AnyObject] {
-        return ["": "" as AnyObject]
-    }
-    
-    func asURLRequest() throws -> URLRequest {
-        
-        let url = try self.baseURL.asURL()
-        
-        var request = URLRequest(url: url.appendingPathComponent(path))
-        request.httpMethod = method.rawValue
-        
-        return try URLEncoding.default.encode(request, with: parameters)
-    }
-}
-
 class BantuDicoAlamofireApiClient {
     
     var environment: BantuDicoApiEnvironment = .dev
@@ -70,7 +30,7 @@ extension BantuDicoAlamofireApiClient: BantuDicoApiClient {
                    queue: DispatchQueue? = DispatchQueue.main,
                    completion: BantuDicoApiTranslationCompletionHandler?) -> URLSessionTask? {
         
-        let request = Endpoint.translate(word, sourceLanguage, destinationLanguage, environment)
+        let request = BantuDicoAlamofireApiEndpoint.translate(word, sourceLanguage, destinationLanguage, environment.baseURL)
         
         return sessionManager.request(request)
             .validate(statusCode: 200..<300)
@@ -91,7 +51,7 @@ extension BantuDicoAlamofireApiClient: BantuDicoApiClient {
     func fetchSupportedLanguages(queue: DispatchQueue? = DispatchQueue.main,
                                  completion: BantuDicoApiLanguagesCompletionHandler?) -> URLSessionTask? {
         
-        let request = Endpoint.supportedLanguages(environment)
+        let request = BantuDicoAlamofireApiEndpoint.supportedLanguages(environment.baseURL)
         
         return sessionManager.request(request)
             .validate(statusCode: 200..<300)
